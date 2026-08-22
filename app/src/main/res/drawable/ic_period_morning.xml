@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sun rising over a horizon line. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- horizon -->
+    <path android:fillColor="#000"
+        android:pathData="M2,19 L22,19 L22,20.5 L2,20.5 Z" />
+    <!-- half sun body -->
+    <path android:fillColor="#000"
+        android:pathData="M12,10 a5,5 0 0 1 5,5 h-10 a5,5 0 0 1 5,-5 Z" />
+    <!-- rays -->
+    <path android:fillColor="#000" android:pathData="M11.25,4 h1.5 v3 h-1.5 z" />
+    <path android:fillColor="#000" android:pathData="M4.7,6.4 l1.06,-1.06 2.12,2.12 l-1.06,1.06 z" />
+    <path android:fillColor="#000" android:pathData="M17.18,7.46 l2.12,-2.12 1.06,1.06 -2.12,2.12 z" />
+</vector>

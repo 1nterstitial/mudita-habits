@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Launcher-icon background layer.
+    Adaptive icons are 108×108 dp; the safe zone (guaranteed visible after any launcher mask)
+    is the inner 66×66 dp — the outer 21 dp on each side may be cropped.
+    We draw a rounded-corner tile that fits comfortably inside the safe zone so it stays
+    rounded on launchers that apply a rectangular mask, and simply appears as a rounded
+    black square on launchers (like MuditaOS's) that don't mask at all.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#000000"
+        android:pathData="M28,14 L80,14 A14,14 0 0,1 94,28 L94,80 A14,14 0 0,1 80,94 L28,94 A14,14 0 0,1 14,80 L14,28 A14,14 0 0,1 28,14 Z" />
+</vector>

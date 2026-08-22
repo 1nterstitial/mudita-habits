@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pure B&amp;W palette. Every visible color in the app resolves to one of these three. -->
+    <color name="ink_black">#FF000000</color>
+    <color name="paper_white">#FFFFFFFF</color>
+    <color name="ink_muted">#FF808080</color> <!-- reserved for disabled state only -->
+</resources>

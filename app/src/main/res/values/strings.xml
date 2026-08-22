@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Habits</string>
+
+    <!-- Day view -->
+    <string name="today">TODAY</string>
+    <string name="yesterday">YESTERDAY</string>
+    <string name="tomorrow">TOMORROW</string>
+    <string name="period_morning">MORNING</string>
+    <string name="period_afternoon">AFTERNOON</string>
+    <string name="period_night">NIGHT</string>
+    <string name="period_any">ANY TIME</string>
+    <string name="no_tasks">Nothing scheduled.</string>
+    <string name="completion_summary">%1$d / %2$d completed</string>
+
+    <!-- Navigation -->
+    <string name="previous_day">Previous day</string>
+    <string name="next_day">Next day</string>
+    <string name="jump_to_today">Today</string>
+    <string name="pick_date">Pick date</string>
+
+    <!-- Menu -->
+    <string name="menu_new_task">New task</string>
+    <string name="menu_manage">Manage tasks</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Manage tasks screen -->
+    <string name="manage_title">Manage tasks</string>
+    <string name="manage_empty">No tasks yet. Use the + button on the day screen to create one.</string>
+    <string name="tag_archived">ARCHIVED</string>
+
+    <!-- Editor -->
+    <string name="edit_title_new">New task</string>
+    <string name="edit_title_edit">Edit task</string>
+    <string name="field_name">Name</string>
+    <string name="field_frequency">Frequency</string>
+    <string name="field_period">Time of day</string>
+    <string name="field_weekdays">Days of week</string>
+    <string name="field_monthday">Day of month</string>
+    <string name="field_date">Date</string>
+    <string name="freq_once">Once</string>
+    <string name="freq_daily">Daily</string>
+    <string name="freq_weekly">Weekly</string>
+    <string name="freq_monthly">Monthly</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="archive">Archive (keep history)</string>
+    <string name="restore">Restore</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_delete">Delete task and all its completion history?</string>
+    <string name="confirm_archive">Archive this task? Its history is kept but it will no longer appear on future days.</string>
+    <string name="delete_permanent">Delete permanently</string>
+
+    <!-- Weekdays (Mon..Sun display) -->
+    <string name="wd_mon">Mon</string>
+    <string name="wd_tue">Tue</string>
+    <string name="wd_wed">Wed</string>
+    <string name="wd_thu">Thu</string>
+    <string name="wd_fri">Fri</string>
+    <string name="wd_sat">Sat</string>
+    <string name="wd_sun">Sun</string>
+
+    <!-- Stats -->
+    <string name="stats_title">STATISTICS</string>
+    <string name="stats_overall">Overall</string>
+    <string name="stats_overall_pct">%1$d%% completed</string>
+    <string name="stats_current_streak">Current streak: %1$d %2$s</string>
+    <string name="stats_best_streak">Best streak: %1$d %2$s</string>
+    <string name="stats_completion">Completion: %1$d%%</string>
+    <string name="stats_completions">Completions: %1$d</string>
+    <string name="stats_daily_rate">Daily: %1$d%%</string>
+    <string name="stats_weekly_rate">Weekly: %1$d%%</string>
+    <string name="stats_monthly_rate">Monthly: %1$d%%</string>
+    <string name="unit_day_singular">day</string>
+    <string name="unit_day_plural">days</string>
+    <string name="stats_include_archived">Include archived tasks</string>
+    <string name="stats_no_data">No completion history yet.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="pref_first_dow_title">First day of week</string>
+    <string name="pref_first_dow_monday">Monday</string>
+    <string name="pref_first_dow_sunday">Sunday</string>
+    <string name="pref_default_period_title">Default time of day for new tasks</string>
+    <string name="pref_export_title">Export data</string>
+    <string name="pref_export_summary">Save tasks and completion history as a JSON file</string>
+    <string name="pref_import_title">Import data</string>
+    <string name="pref_import_summary">Restore tasks and history from a JSON file</string>
+    <string name="pref_about_title">About</string>
+    <string name="pref_about_summary">Habits · offline · v%1$s</string>
+    <string name="export_success">Exported successfully.</string>
+    <string name="export_failure">Export failed.</string>
+    <string name="import_success">Imported %1$d tasks and %2$d completion records.</string>
+    <string name="import_failure">Import failed. File was not a valid Habits export.</string>
+    <string name="import_confirm_title">Import will replace all data</string>
+    <string name="import_confirm_msg">This replaces every task and completion record currently in the app. Continue?</string>
+    <string name="proceed">Proceed</string>
+</resources>

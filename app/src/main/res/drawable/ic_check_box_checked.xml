@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Filled black square -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M3,3 L21,3 L21,21 L3,21 Z" />
+    <!-- Checkmark in white -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M6,12 L10,16 L18,7" />
+</vector>
