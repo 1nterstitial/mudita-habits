@@ -62,7 +62,7 @@
     <string name="wd_sun">Sun</string>
 
     <!-- Stats -->
-    <string name="stats_title">STATISTICS</string>
+    <string name="stats_title">Statistics</string>
     <string name="stats_overall">Overall</string>
     <string name="stats_overall_pct">%1$d%% completed</string>
     <string name="stats_current_streak">Current streak: %1$d %2$s</string>

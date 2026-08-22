@@ -96,14 +96,6 @@ fun EditTaskScreen(
             .verticalScroll(rememberScrollState())
             .padding(16.dp)
     ) {
-        TextMMD(
-            text = ctx.getString(
-                if (taskId == 0L) R.string.edit_title_new else R.string.edit_title_edit
-            ),
-            style = MaterialTheme.typography.headlineSmall
-        )
-        VSpace(16)
-
         // Name
         SectionLabel(ctx.getString(R.string.field_name))
         TextFieldMMD(
