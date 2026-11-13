@@ -1,0 +1,33 @@
+# Publishes an already-signed APK from the `dist` branch as a GitHub Release.
+# Used when the APK is built and signed outside GitHub (no signing secrets here).
+# The APK must be named mudita-habits-<tag>.apk, e.g. mudita-habits-v1.0.0.apk.
+name: Publish prebuilt APK
+
+on:
+  push:
+    branches: [dist]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: dist
+      - name: Create releases for any APK not yet published
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for apk in mudita-habits-v*.apk; do
+            tag="${apk#mudita-habits-}"; tag="${tag%.apk}"
+            if gh release view "$tag" >/dev/null 2>&1; then
+              echo "$tag already released"; continue
+            fi
+            gh release create "$tag" "$apk" --target main \
+              --title "Habits $tag" \
+              --notes "Signed build for installing on the Mudita Kompakt through Obtainium. APK SHA-256: $(sha256sum "$apk" | cut -d' ' -f1)"
+          done
